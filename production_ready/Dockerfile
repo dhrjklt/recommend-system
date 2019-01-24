@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTANER Dhiraj Kalita "dhiraj.kalita@vantagecircle.com"
+MAINTAINER Dhiraj Kalita <dhiraj.sanju@gmail.com>
 
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
