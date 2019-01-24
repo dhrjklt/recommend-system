@@ -11,7 +11,7 @@ def predict(num):
 
         if request.method == 'GET':
 
-        		rec_list=[]
+        	rec_list=[]
                 data=model1.recommend([num])
                 for i in range(0,9):
                 	values='exclusivedeal_'+str(data[i]['dealId'])
@@ -23,7 +23,7 @@ def prediction(num):
 
         if request.method == 'GET':
 
-				rec_list=[]
+		rec_list=[]
                 data=model2.recommend([num])
                 for i in range(0,9):
                 	values='exclusivedeal_'+str(data[i]['dealId'])
